@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #dbdcde;
+}
+
+@layer components {
+  .formbox {
+    @apply w-[80%] mx-auto bg-white px-6 py-6 rounded-lg shadow-xl ring-1 ring-slate-800/5 flex flex-col;
+  }
+
+  .inputStyle {
+    @apply w-full ring-1 ring-slate-900 rounded-sm h-10 px-3 py-2 focus:outline-none text-sm text-gray-800;
+  }
+}
