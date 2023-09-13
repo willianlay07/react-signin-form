@@ -1,8 +1,19 @@
-# React + Vite
+# React Sign In or Sign Up Template with Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React + Vite + Tailwind CSS
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Set Up
+<br />
+To clone the repository on your computer
+<br /><br />
+git clone https://github.com/willianlay07/react-signin-form.git
+<br />
+cd react-signin-form-main
+<br /><br />
+To install dependencies,
+<br />
+npm install
+<br /><br />
+To run the project itself,
+<br />
+npm run dev
