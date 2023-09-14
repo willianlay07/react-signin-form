@@ -20,7 +20,7 @@ const App = () => {
           </div>
           <div className="text-center text-sm text-gray-800 py-2">
             {inStatus ? "Do not have account? " : "Already have account? "}
-            <button onClick={() => handleInStatus()}>
+            <button className="text-blue-500" onClick={() => handleInStatus()}>
               {inStatus ? "Sign Up" : "Sign In"}
             </button>
           </div>
