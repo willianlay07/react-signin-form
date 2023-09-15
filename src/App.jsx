@@ -15,7 +15,7 @@ const App = () => {
           Is it better for {inStatus ? "Sign In" : "Sign Up"}?
         </h2>
         <div className="formbox">
-          <div className="text-center text-2xl text-gray-800">
+          <div className="text-center text-3xl text-purple-600 font-bold">
             {inStatus ? "Sign In" : "Sign Up"}
           </div>
           <div className="text-center text-sm text-gray-800 py-2">
@@ -74,7 +74,7 @@ const App = () => {
           )}
 
           <div className="w-full mt-5">
-            <button className="w-full h-10 bg-blue-500 text-white text-sm rounded-sm hover:bg-blue-700">
+            <button className="w-full h-10 bg-blue-500 text-white text-sm rounded-md hover:bg-blue-700">
               {inStatus ? "Sign In" : "Sign Up"}
             </button>
           </div>
